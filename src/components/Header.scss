@@ -1,0 +1,110 @@
+@import "../helpers/variables";
+
+nav {
+    .navigation {
+        display: flex;
+        gap: 1rem;
+        padding: 0 40px;
+        list-style: none;
+
+        @media (max-width: 426px) {
+            display: none;
+            text-align: right;
+        }
+
+        .navigation-item {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 2.25rem;
+            padding: 1rem 0;
+
+            cursor: pointer;
+
+            &:hover {
+                color: $textcolor;
+            }
+
+            >a {
+                color: $textcolor50;
+            }
+
+            >a.active {
+                color: $accentcolor
+            }
+        }
+    }
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    right: 0;
+
+    @media (min-width: 426px) {
+        display: none;
+    }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: $textcolor;
+}
+
+/*
+Color/shape of burger icon bars on hover 
+.bm-burger-bars-hover {
+    background: $accentcolor;
+}
+*/
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: $textcolor;
+
+    &:hover {
+        background: $accentcolor;
+    }
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: $bgcolor;
+    padding: 2.5em 0;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}

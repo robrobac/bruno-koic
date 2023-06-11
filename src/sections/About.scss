@@ -1,0 +1,27 @@
+@import "../helpers/variables";
+
+.about {
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .about-content {
+        flex: 6;
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .profile-image {
+        flex: 3;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
