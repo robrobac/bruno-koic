@@ -7,9 +7,10 @@ nav {
         padding: 0 40px;
         list-style: none;
 
-        @media (max-width: 426px) {
+        @media (max-width: 425px) {
             display: none;
             text-align: right;
+            height: 70px;
         }
 
         .navigation-item {
@@ -17,10 +18,18 @@ nav {
             font-weight: 500;
             line-height: 2.25rem;
             padding: 1rem 0;
-
             cursor: pointer;
 
-            &:hover {
+            @media (max-width: 425px) {
+                -webkit-tap-highlight-color: transparent;
+                /* For Safari, iOS, and older Android browsers */
+                -moz-tap-highlight-color: transparent;
+                /* For Firefox */
+                tap-highlight-color: transparent;
+                /* For newer Android browsers */
+            }
+
+            >a:hover {
                 color: $textcolor;
             }
 
@@ -40,7 +49,8 @@ nav {
     position: fixed;
     width: 30px;
     height: 30px;
-    right: 0;
+    right: 15px;
+    top: 15px;
 
     @media (min-width: 426px) {
         display: none;
@@ -80,6 +90,7 @@ Color/shape of burger icon bars on hover
   */
 .bm-menu-wrap {
     position: fixed;
+    top: 0;
     height: 100%;
 }
 
@@ -87,6 +98,7 @@ Color/shape of burger icon bars on hover
 .bm-menu {
     background: $bgcolor;
     padding: 2.5em 0;
+    opacity: 95%;
 }
 
 /* Morph shape necessary with bubble or elastic */

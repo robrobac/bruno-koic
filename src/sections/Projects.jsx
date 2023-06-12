@@ -13,6 +13,7 @@ import "./Projects.scss"
 function Projects() {
     return (
         <section className='projects'>
+            <h2>Projekti</h2>
             <div className="project">
                 <div className="project-image">
                     <img src={mixeta} alt='mixeta'></img>
@@ -21,7 +22,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Mixeta.net</h3>
-                            <p>Glazbeni portal (urednik/novinar)</p>
+                            <p><i>Glazbeni portal (urednik/novinar)</i></p>
                         </div>
                         <div className="icons">
                             <a href="https://mixeta.net/" target='_blank' rel="noreferrer">
@@ -36,10 +37,14 @@ function Projects() {
                         </div>
                     </div>
                     <p>
-                        Mixeta je novinarsko - umjetnički projekt koji djeluje u sklopu Udruge Mixeta Media i istoimenog glazbenog portala na web adresi mixeta.net. Promocija i pisanje o glazbi i ostalim oblicima umjetnosti, implementiranje novinarstva u umjetnost, praćenje kulture na ovim područjima te kontinuirano razvijanje kulturne scene i kulturne svijesti temeljni su čimbenici po kojima se projekt vodi. ixeta je, između ostalog, mjesto na kojemu mladi, neafirmirani novinari imaju prililku pisati o umjetnosti te na taj način proći osnovnu novinarsku praksu. Također, Mixeta, konstantno i aktivno promovira mlade glazbenike te glazbeno stvaralaštvo svih oblika putem razgovora s umjetnicima, reportažama s glazbenih događaja, recenzijama glazbenih izdanja te praćenjem aktualnosti u svijetu glazbe i filma.
+                        Mixeta je novinarsko - umjetnički projekt koji djeluje u sklopu Udruge Mixeta Media i istoimenog glazbenog portala na web adresi mixeta.net. Promocija i pisanje o glazbi i ostalim oblicima umjetnosti, implementiranje novinarstva u umjetnost, praćenje kulture na ovim područjima te kontinuirano razvijanje kulturne scene i kulturne svijesti temeljni su čimbenici po kojima se projekt vodi. 
+                        <br></br>
+                        <br></br>
+                        Mixeta je, između ostalog, mjesto na kojemu mladi, neafirmirani novinari imaju prililku pisati o umjetnosti te na taj način proći osnovnu novinarsku praksu. Također, Mixeta, konstantno i aktivno promovira mlade glazbenike te glazbeno stvaralaštvo svih oblika putem razgovora s umjetnicima, reportažama s glazbenih događaja, recenzijama glazbenih izdanja te praćenjem aktualnosti u svijetu glazbe i filma.
                     </p>
                 </div>
             </div>
+            <hr className='divider'></hr>
             <div className="project">
                 <div className="project-image">
                     <img src={grobljehorora} alt='groblje horora'></img>
@@ -48,7 +53,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Groblje Horora</h3>
-                            <p>Osvrti na filmove</p>
+                            <p><i>Osvrti na filmove</i></p>
                         </div>
                         <div className="icons">
                             <a href="https://blog.dnevnik.hr/recenzijefilmova/" target='_blank' rel="noreferrer">
@@ -64,6 +69,7 @@ function Projects() {
                     </p>
                 </div>
             </div>
+            <hr className='divider'></hr>
             <div className="project">
                 <div className="project-image">
                     <img src={nakrajicku} alt='na krajicku jezika'></img>
@@ -72,7 +78,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Na krajičku jezika</h3>
-                            <p>Poezija</p>
+                            <p><i>Poezija</i></p>
                         </div>
                         <div className="icons">
                             <a href="https://www.facebook.com/NaKrajickuJezika" target='_blank' rel="noreferrer">

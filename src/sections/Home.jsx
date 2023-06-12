@@ -19,8 +19,11 @@ function Home() {
                         <h3>"Umovina"</h3>
                         <p>Zbirka pjesama</p>
                         <p>2012.</p>
-                        <p>Izdavač: Čarobni tim d.o.o.</p>
+                        <p>Izdavač:</p>
+                        <p>Čarobni tim d.o.o.</p>
+                        <br></br>
                     </div>
+                    <button>Download PDF</button>
                 </div>
                 <div className='book'>
                     <img src={versionarcover} alt='versionar cover'></img>
@@ -28,8 +31,10 @@ function Home() {
                         <h3>"Versionar"</h3>
                         <p>Zbirka pjesama</p>
                         <p>2017.</p>
-                        <p>Izdavač: Matica hrvatska ogranak Osijek</p>
+                        <p>Izdavač:</p>
+                        <p>Matica hrvatska ogranak Osijek</p>
                     </div>
+                    <button>Download PDF</button>
                 </div>
             </div>
         </section>

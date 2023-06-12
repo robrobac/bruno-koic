@@ -41,7 +41,7 @@ body {
     }
 }
 
-/*
+
 header {
     display: flex;
     align-items: center;
@@ -49,5 +49,9 @@ header {
     position: fixed;
     width: 100%;
     background-color: $bgcolor;
+    z-index: 1;
+
+    @media (max-width: 425px) {
+        height: 60px;
+    }
 }
-*/
