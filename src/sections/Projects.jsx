@@ -9,11 +9,13 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 import "./Projects.scss"
+import { Reveal } from '../helpers/Reveal';
 
 function Projects() {
     return (
         <section className='projects'>
             <h2>Projekti</h2>
+            <Reveal>
             <div className="project">
                 <div className="project-image">
                     <img src={mixeta} alt='mixeta'></img>
@@ -44,7 +46,9 @@ function Projects() {
                     </p>
                 </div>
             </div>
+            </Reveal>
             <hr className='divider'></hr>
+            <Reveal>
             <div className="project">
                 <div className="project-image">
                     <img src={grobljehorora} alt='groblje horora'></img>
@@ -69,7 +73,9 @@ function Projects() {
                     </p>
                 </div>
             </div>
+            </Reveal>
             <hr className='divider'></hr>
+            <Reveal>
             <div className="project">
                 <div className="project-image">
                     <img src={nakrajicku} alt='na krajicku jezika'></img>
@@ -91,6 +97,7 @@ function Projects() {
                     </p>
                 </div>
             </div>
+            </Reveal>
         </section>
     )
 }

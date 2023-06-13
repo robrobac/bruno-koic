@@ -5,15 +5,20 @@ import "./Home.scss"
 import umovinacover from "../images/umovinacover.jpg";
 import versionarcover from "../images/versionarcover.png";
 import logo from "../images/logo.svg";
+import { Reveal } from '../helpers/Reveal';
 const versionarpdf = "https://drive.google.com/file/d/1BoFde79xKoVOGxGm-7dDiIhMHbSLM93P/view?usp=sharing";
 
 function Home() {
     return (
+        
         <section className='home'>
+            
             <div className="title">
                 <img src={logo} alt='logo'></img>
             </div>
+            
             <div className="books">
+                <Reveal>
                 <div className='book'>
                     <img src={umovinacover} alt='umovina cover'></img>
                     <div className="book-info">
@@ -26,6 +31,8 @@ function Home() {
                     </div>
                     <button className='inactive' disabled>Download PDF</button>
                 </div>
+                </Reveal>
+                <Reveal>
                 <div className='book'>
                     <img src={versionarcover} alt='versionar cover'></img>
                     <div className="book-info">
@@ -39,8 +46,11 @@ function Home() {
                         <button>Download PDF</button>
                     </a>
                 </div>
+                </Reveal>
             </div>
+            
         </section>
+        
     )
 }
 

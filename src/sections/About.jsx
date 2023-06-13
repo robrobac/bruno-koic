@@ -3,10 +3,12 @@ import React from 'react'
 import "./About.scss"
 
 import profilna from "../images/profilna.png";
+import { Reveal } from '../helpers/Reveal';
 
 function About() {
     return (
         <section className='about'>
+            <Reveal>
             <div className="about-content">
                 <h2>O Meni</h2>
                 <br></br>
@@ -20,8 +22,11 @@ function About() {
                 Treća zbirka u planu je uskoro.
                 </p>
             </div>
+            </Reveal>
             <div className="profile-image">
+                <Reveal>
                 <img src={profilna} alt='profile'></img>
+                </Reveal>
             </div>
             
         </section>
