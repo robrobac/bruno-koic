@@ -81,10 +81,6 @@
                     display: inline;
                 }
 
-                // @media (max-width: 319px) {
-                //     display: none;
-                // }
-
                 @media (max-width: 316px) {
                     display: inline;
                 }
@@ -99,7 +95,7 @@
             }
 
             img {
-                border-radius: 10px;
+                // border-radius: 10px;
                 width: 100%;
                 min-width: 150px;
 
@@ -114,7 +110,7 @@
             }
 
             button {
-                border-radius: 5px;
+                // border-radius: 5px;
                 color: $textcolor50;
                 background-color: $bgcolor;
                 padding: 0.5rem;
