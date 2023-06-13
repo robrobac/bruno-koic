@@ -95,6 +95,7 @@
             }
 
             img {
+                cursor: pointer;
                 // border-radius: 10px;
                 width: 100%;
                 min-width: 150px;
@@ -106,7 +107,6 @@
                 @media (max-width: 316px) {
                     min-width: 50px;
                 }
-
             }
 
             button {

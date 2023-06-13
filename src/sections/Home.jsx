@@ -7,10 +7,11 @@ import versionarcover from "../images/versionarcover.png";
 import logo from "../images/logo.svg";
 import { Reveal } from '../helpers/Reveal';
 const versionarpdf = "https://drive.google.com/file/d/1BoFde79xKoVOGxGm-7dDiIhMHbSLM93P/view?usp=sharing";
+const umovinadownload = "https://drive.google.com/file/d/1anvlBSmhTmILyWBWfIXrMRe22isZb4hE/view?usp=sharing"
+const versionardownload = "https://drive.google.com/file/d/12elyEIEXC2vCTtKfVbD4YKBHaRySSiYP/view?usp=sharing"
 
 function Home() {
     return (
-        
         <section className='home'>
             
             <div className="title">
@@ -20,7 +21,9 @@ function Home() {
             <div className="books">
                 <Reveal>
                 <div className='book'>
-                    <img src={umovinacover} alt='umovina cover'></img>
+                    <a href={umovinadownload} target='_blank' rel="noreferrer">
+                        <img className='umovina' src={umovinacover} alt='umovina cover'></img>
+                    </a>
                     <div className="book-info">
                         <h3>"Umovina"</h3>
                         <p>Zbirka pjesama</p>
@@ -34,7 +37,9 @@ function Home() {
                 </Reveal>
                 <Reveal>
                 <div className='book'>
-                    <img src={versionarcover} alt='versionar cover'></img>
+                    <a href={versionardownload} target='_blank' rel="noreferrer">
+                        <img className='versionar' src={versionarcover} alt='versionar cover'></img>
+                    </a>
                     <div className="book-info">
                         <h3>"Versionar"</h3>
                         <p>Zbirka pjesama</p>

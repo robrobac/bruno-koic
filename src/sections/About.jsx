@@ -10,7 +10,7 @@ function About() {
         <section className='about'>
             <Reveal>
             <div className="about-content">
-                <h2>O Meni</h2>
+                <h2>O meni</h2>
                 <br></br>
                 <p>
                 Bruno Koić rođen je 1993. godine u Osijeku. Pisanjem se bavi od 12. godine, a prvu zbirku pjesama "Umovina" objavljuje sa 17 godina. Tijekom studija pridružuje se pjesničkoj skupini "Na krajičku jezika", suosniva udrugu i glazbeni portal Mixeta.net gdje radi kao urednik i novinar, a drugu zbirku pjesama "Versionar" objavljuje koncem 2017. godine.
