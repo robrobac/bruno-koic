@@ -5,6 +5,7 @@ import "./Home.scss"
 import umovinacover from "../images/umovinacover.jpg";
 import versionarcover from "../images/versionarcover.png";
 import logo from "../images/logo.svg";
+const versionarpdf = "https://drive.google.com/file/d/1BoFde79xKoVOGxGm-7dDiIhMHbSLM93P/view?usp=sharing";
 
 function Home() {
     return (
@@ -34,7 +35,9 @@ function Home() {
                         <p>Izdavač:</p>
                         <p>Matica hrvatska ogranak Osijek</p>
                     </div>
-                    <button>Download PDF</button>
+                    <a href={versionarpdf} target='_blank' rel="noreferrer">
+                        <button>Download PDF</button>
+                    </a>
                 </div>
             </div>
         </section>
