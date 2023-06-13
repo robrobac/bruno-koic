@@ -94,6 +94,24 @@
                 }
             }
 
+            .booklink {
+                display: inline-block;
+                position: relative;
+            }
+
+            .booklink:hover::after {
+                content: "";
+                word-break: break-all;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 99%;
+                box-shadow: inset 0 0 0 1px $accentcolor;
+                /* Customize the color and properties of the inner shadow */
+                z-index: 0;
+            }
+
             img {
                 cursor: pointer;
                 // border-radius: 10px;

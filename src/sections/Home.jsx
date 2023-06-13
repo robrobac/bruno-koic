@@ -21,7 +21,7 @@ function Home() {
             <div className="books">
                 <Reveal>
                 <div className='book'>
-                    <a href={umovinadownload} target='_blank' rel="noreferrer">
+                    <a className='booklink' href={umovinadownload} target='_blank' rel="noreferrer">
                         <img className='umovina' src={umovinacover} alt='umovina cover'></img>
                     </a>
                     <div className="book-info">
@@ -37,7 +37,7 @@ function Home() {
                 </Reveal>
                 <Reveal>
                 <div className='book'>
-                    <a href={versionardownload} target='_blank' rel="noreferrer">
+                    <a className='booklink' href={versionardownload} target='_blank' rel="noreferrer">
                         <img className='versionar' src={versionarcover} alt='versionar cover'></img>
                     </a>
                     <div className="book-info">
