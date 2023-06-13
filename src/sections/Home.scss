@@ -111,10 +111,10 @@
 
             button {
                 // border-radius: 5px;
-                color: $textcolor50;
+                color: $accentcolor;
                 background-color: $bgcolor;
                 padding: 0.5rem;
-                border: 1px solid $textcolor50;
+                border: 1px solid $accentcolor;
                 cursor: pointer;
 
                 @media (max-width: 474px) {
@@ -127,8 +127,8 @@
                 }
 
                 &:hover {
-                    color: $accentcolor;
-                    border: 1px solid $accentcolor;
+                    color: $textcolor;
+                    border: 1px solid $textcolor;
                 }
             }
         }

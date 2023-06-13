@@ -81,14 +81,14 @@
                 padding-top: 1rem;
 
                 .icon {
-                    fill: $textcolor50;
+                    fill: $accentcolor;
 
                     @media (max-width: 425px) {
                         height: 25px;
                     }
 
                     &:hover {
-                        fill: $accentcolor;
+                        fill: $textcolor;
                     }
                 }
             }
