@@ -23,7 +23,7 @@ function Home() {
                         <p>Čarobni tim d.o.o.</p>
                         <br></br>
                     </div>
-                    <button>Download PDF</button>
+                    <button className='inactive' disabled>Download PDF</button>
                 </div>
                 <div className='book'>
                     <img src={versionarcover} alt='versionar cover'></img>

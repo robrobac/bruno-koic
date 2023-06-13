@@ -111,11 +111,22 @@
 
             button {
                 // border-radius: 5px;
-                color: $accentcolor;
+                color: $textcolor;
                 background-color: $bgcolor;
                 padding: 0.5rem;
-                border: 1px solid $accentcolor;
+                border: 1px solid $textcolor;
                 cursor: pointer;
+
+                &.inactive {
+                    color: $textcolor50;
+                    border: solid 1px $textcolor50;
+
+                    &:hover {
+                        color: $textcolor50;
+                        border: 1px solid $textcolor50;
+                        cursor: auto;
+                    }
+                }
 
                 @media (max-width: 474px) {
                     font-size: 0.8rem;
@@ -127,8 +138,8 @@
                 }
 
                 &:hover {
-                    color: $textcolor;
-                    border: 1px solid $textcolor;
+                    color: $accentcolor;
+                    border: 1px solid $accentcolor;
                 }
             }
         }
