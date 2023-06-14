@@ -24,7 +24,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Mixeta.net</h3>
-                            <p><i>Glazbeni portal (urednik/novinar)</i></p>
+                            <i>Glazbeni portal (urednik/novinar)</i>
                         </div>
                         <div className="icons">
                             <a href="https://mixeta.net/" target='_blank' rel="noreferrer">
@@ -40,9 +40,9 @@ function Projects() {
                     </div>
                     <p>
                         Mixeta je novinarsko - umjetnički projekt koji djeluje u sklopu Udruge Mixeta Media i istoimenog glazbenog portala na web adresi mixeta.net. Promocija i pisanje o glazbi i ostalim oblicima umjetnosti, implementiranje novinarstva u umjetnost, praćenje kulture na ovim područjima te kontinuirano razvijanje kulturne scene i kulturne svijesti temeljni su čimbenici po kojima se projekt vodi. 
-                        <br></br>
-                        <br></br>
-                        Mixeta je, između ostalog, mjesto na kojemu mladi, neafirmirani novinari imaju prililku pisati o umjetnosti te na taj način proći osnovnu novinarsku praksu. Također, Mixeta, konstantno i aktivno promovira mlade glazbenike te glazbeno stvaralaštvo svih oblika putem razgovora s umjetnicima, reportažama s glazbenih događaja, recenzijama glazbenih izdanja te praćenjem aktualnosti u svijetu glazbe i filma.
+                        </p>
+                        <p>
+                         Mixeta je, između ostalog, mjesto na kojemu mladi, neafirmirani novinari imaju priliku pisati o umjetnosti te na taj način proći osnovnu novinarsku praksu. Također, Mixeta, konstantno i aktivno promovira mlade glazbenike te glazbeno stvaralaštvo svih oblika putem razgovora s umjetnicima, reportažama s glazbenih događaja, recenzijama glazbenih izdanja te praćenjem aktualnosti u svijetu glazbe i filma.
                     </p>
                 </div>
             </div>
@@ -57,7 +57,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Groblje Horora</h3>
-                            <p><i>Osvrti na filmove</i></p>
+                            <i>Osvrti na filmove</i>
                         </div>
                         <div className="icons">
                             <a href="https://blog.dnevnik.hr/recenzijefilmova/" target='_blank' rel="noreferrer">
@@ -84,7 +84,7 @@ function Projects() {
                     <div className="about-title">
                         <div className="project-title">
                             <h3>Na krajičku jezika</h3>
-                            <p><i>Poezija</i></p>
+                            <i>Poezija</i>
                         </div>
                         <div className="icons">
                             <a href="https://www.facebook.com/NaKrajickuJezika" target='_blank' rel="noreferrer">
